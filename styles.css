@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 html, body {
   background: #fff;
-  height: 300vh;
+
 
 }
 
@@ -35,6 +35,26 @@ html, body {
   color: #fff;
   font-family: Impact;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.headerbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #000;
+}
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #000;
+}
+
+.progress-bar {
+  height: 5px;
+  background: #28fccf;
+  background-image: linear-gradient(to right, #28fccf , yellow);
+  width: 0%;
 }
 
 #headers{
@@ -95,15 +115,33 @@ a:hover small {
   background-size: cover;
 }
 
-#hiswrap {
+.parallax1 {
+  background-image: url("me1.png");
+  height: 600px; width: 50%;
+  background-attachment: fixed;
+  background-position: right;
+  float:right;
+  background-repeat: no-repeat;
+  background-size: 30% 70%;
+}
+
+#hiswrap2 {
     width:40%;
-    margin:0;
+    margin: 0;
+    float:left;
+    padding:10px;
+  }
+
+#hiswrap {
+    width:60%;
+    margin: 0;
     float:left;
     padding:10px;
   }
 #mywrap {
-    width:50%;
-    margin:0;
+    width:30%;
+    margin-top:90px;
+	margin-left: 50px;
     float:left;
     padding:10px;
   }
@@ -219,8 +257,9 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:600px;
+  padding-left: 150px;
+  float:left;
   padding-bottom:50px;
 }
 
