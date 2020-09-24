@@ -55,14 +55,16 @@ a:hover small {
 }
 
 #hiswrap {
-    width:50%;
+    width:40%;
     margin:0;
     float:left;
+    padding:20px;
   }
 #mywrap {
-    width:50%;
+    width:40%;
     margin:0;
     float:left;
+    padding:20px;
   }
 
 blockquote {
