@@ -55,9 +55,15 @@ a:hover small {
 }
 
 .wrapper {
-float: left;
-width: 900px;
-}
+    width:50%;
+    margin:0;
+    float:right;
+  }
+.wrapper1 {
+    width:50%;
+    margin:0;
+    float:left;
+  }
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -197,8 +203,14 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
+    width:50%;
     margin:0;
+    float:right;
+  }
+  div.wrapper1 {
+    width:50%;
+    margin:0;
+    float:left;
   }
 
   header, section, footer {
