@@ -54,12 +54,12 @@ a:hover small {
   color:#777;
 }
 
-.wrapper {
+#hiswrap {
     width:50%;
     margin:0;
     float:left;
   }
-.wrapper1 {
+#mywrap {
     width:50%;
     margin:0;
     float:left;
