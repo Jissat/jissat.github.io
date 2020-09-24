@@ -1,13 +1,13 @@
 body {
   background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin:0px;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont,Copperplate, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color: #222;
   margin:0 0 20px;
 }
 
@@ -18,6 +18,37 @@ p, ul, ol, table, pre, dl {
 h1, h2, h3 {
   line-height:1.1;
 }
+
+html, body {
+  background: #fff;
+  height: 300vh;
+
+}
+
+#headerq{
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 20%;
+  font-size:90px;
+  text-align: center;
+  color: #fff;
+  font-family: Impact;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#headers{
+  position: absolute;
+  z-index: 0;
+  top: 65%;
+  left: 15%;
+  font-size:20px;
+  text-align: center;
+  color: #fff;
+  font-family: Verdana;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
 h1 {
   font-size:28px;
@@ -52,6 +83,16 @@ a small {
 
 a:hover small {
   color:#777;
+}
+
+
+.parallax {
+  background-image: url("mepic.png");
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hiswrap {

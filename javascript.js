@@ -15,3 +15,5 @@ function gestureStart() {
     }
   }
 }
+var rellax = new Rellax('.rellax');
+
