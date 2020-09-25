@@ -34,7 +34,7 @@ html, body {
   text-align: center;
   color: #fff;
   font-family: Impact;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: 2px 2px 4px #e6bf12;
 }
 .headerbar {
   position: fixed;
@@ -46,12 +46,12 @@ html, body {
 
 .progress-container {
   width: 100%;
-  height: 5px;
+  height: 0px;
   background: #000;
 }
 
 .progress-bar {
-  height: 5px;
+  height: 10px;
   background: #28fccf;
   background-image: linear-gradient(to right, #28fccf , yellow);
   width: 0%;
@@ -105,10 +105,54 @@ a:hover small {
   color:#777;
 }
 
+.old-text,
+.new-text {
+  display: block;
+  overflow: hidden;
+  transition: all 500ms ease-in-out;
+}
+.old-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+.new-text {
+  color: #fff;
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+.abc:hover .old-text {
+  height: 0px;
+  opacity: 0;
+  width: 0px;
+}
+.abc:hover .new-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+
+.abc {
+  width: 180px;
+  height: 180px;
+  border-radius:20px;
+  background: #f1fa9b;
+  transition: width 0.5s, height 0.5s, transform 0.5s, background-color 0.5s ease;
+  transition-timing-function: ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.abc:hover {
+  width: 190px;
+  transform: translate(-5px, -5px);
+  height: 190px;
+  background: #faa59b;
+}
 
 .parallax {
   background-image: url("mepic.png");
-  height: 755px;
+  height: 770px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,12 +161,13 @@ a:hover small {
 
 .col1{
 	display: table;
+	height:500px;
 }
 
 .parallax1 {
   display:table-cell;
   background-image: url("me2.png");
-  height: 500px; width:100%;
+  height: 540px; width:100%;
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
