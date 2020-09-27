@@ -18,7 +18,7 @@ h1, h2, h3 {
   position: absolute;
   z-index: 0;
   top: 15%;
-  left: 20%;
+  left: 18%;
   font-size:90px;
   text-align: center;
   color: #fff;
@@ -150,6 +150,7 @@ div.abc:hover {
 .parallax {
   background-image: url("mepic.jpeg");
   height: 770px;
+  width:100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,6 +162,7 @@ div.abc:hover {
 
   background-image: url("me2.png");
   height: 600px;
+  width:60%;
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
@@ -169,7 +171,7 @@ div.abc:hover {
 
 .hiswrap2 {
 	background-color: #fad49b;
-	width:50%;
+	width:40%;
   }
 
 .hiswrap {
@@ -195,26 +197,14 @@ overflow-x: visible;}
 	.parallax {
   background-image: url("mepic.jpeg");
   height: 770px;
-  width:200%;
+  width:750px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax1 {
 
-  background-image: url("me2.png");
-  height: 600px;
-  width:200%;
-  background-attachment: fixed;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.hiswrap2 {
-	background-color: #fad49b;
-	width:150%;
-  }
+
 }
 
 }
