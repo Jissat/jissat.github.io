@@ -1,33 +1,17 @@
 body {
-  background-color: #fff;
-  margin:0px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont,Copperplate, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
-  	width:100%;
   font-weight:400;
 }
-
-div{
-	width:100%;
-}
-
+	
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin:0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
-}
 
 h1, h2, h3 {
   line-height:1.1;
-}
-
-html, body {
-  background: #fff;
-
-
 }
 
 #headerq{
@@ -65,7 +49,7 @@ html, body {
 #headers{
   position: absolute;
   z-index: 0;
-  top: 29%;
+  top: 32%;
   left: 11%;
   font-size:20px;
   text-align: center;
@@ -127,9 +111,7 @@ a:hover small {
   opacity: 0;
   width: 0;
 }
-#happyme{
-align:right;
-}
+
 	
 .abc:hover .old-text {
   height: 0px;
@@ -143,20 +125,26 @@ align:right;
 }
 
 .abc {
-  width: 180px;
+  margin:10px;
   height: 180px;
   border-radius:20px;
   background: #f1fa9b;
-  transition: width 0.5s, height 0.5s, transform 0.5s, background-color 0.5s ease;
+  transition: background-color 0.5s ease;
   transition-timing-function: ease;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.abc:hover {
-  width: 190px;
-  transform: translate(-5px, -5px);
-  height: 190px;
+  height: 180px;
   background: #faa59b;
+}
+
+.info{
+	width:100px;
+	height:100px;
+  border-radius:20px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .parallax {
@@ -168,162 +156,29 @@ div.abc:hover {
   background-size: cover;
 }
 
-.col1{
-	display: table;
-	height:500px;
-}
 
 .parallax1 {
-  display:table-cell;
+
   background-image: url("me2.png");
-  height: 540px; width:100%;
+  height: 600px;
   background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 60%;
 }
 
-#hiswrap2 {
-	display:table-cell;
-    width:50%;
-    margin: 0;
+.hiswrap2 {
 	background-color: #fad49b;
+	width:50%;
   }
 
-#hiswrap {
-    width:60%;
-    margin: 0;
-    float:left;
-    padding:10px;
+.hiswrap {
+width:65%;
   }
-#mywrap {
-    width:30%;
-    margin-top:90px;
-	margin-left: 50px;
-    float:left;
-    padding:10px;
+.mywrap {
+width:35%;
   }
 
-blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
-
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-}
-
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-}
-
-dt {
-  color:#444;
-  font-weight:500;
-}
-
-th {
-  color:#444;
-}
-
-img {
-  max-width:100%;
-}
-
-header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
-header ul {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
-}
-
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
-
-header li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-#sec1{
-width:100%;
-padding:50px;
-height:500px}
-
-header li:last-child a {
-  border-radius:0 5px 5px 0;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
-}
-
-header ul a:hover {
-  color:#999;
-}
-
-header ul a:active {
-  background-color:#f0f0f0;
-}
-
-strong {
-  color:#222;
-  font-weight:500;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
-section {
-  width:100%;
-  padding-left: 120px;
-  padding-bottom:50px;
-}
 
 
 hr {
@@ -333,55 +188,33 @@ hr {
   margin:0 0 20px;
 }
 
+html{
+overflow-x: visible;}
 
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-
- .parallax {
+@media only screen and (max-width: 600px) {
+	.parallax {
   background-image: url("mepic.jpeg");
-  height: 970px;
+  height: 770px;
   width:200%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-
-}
-section{
-width:130%;}
-
-#sec1{
-width:130%;
-padding:50px;
-height:500px}
-
-#mywrap {
-    width:130%;
-    padding:10px;
-  }
-  .col1{
-	width:130%;
+  background-size: cover;
 }
 .parallax1 {
+
   background-image: url("me2.png");
-  height: 240px;
-  background-attachment: relative;
-  background-position: centre;
+  height: 600px;
+  width:200%;
+  background-attachment: fixed;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#hiswrap {
-    width:130%;
-    padding:10px;
+.hiswrap2 {
+	background-color: #fad49b;
+	width:150%;
   }
-#hiswrap2 {
-    width:100%;
+}
 
-}
-  
-#happyme{
-align:center;
-}
-}
 }
