@@ -25,3 +25,15 @@ function hiding(j) {
 	x.className = x.className.replace(" w3-show", "");}
   }
 }
+$(document).ready(function () {
+$('.timer').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+});

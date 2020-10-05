@@ -14,6 +14,9 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
+*{
+box-sizing:border-box;}
+
 #headerq{
   position: absolute;
   z-index: 0;
@@ -93,6 +96,7 @@ a small {
 a:hover small {
   color:#777;
 }
+
 
 .old-text,
 .new-text {
@@ -194,15 +198,7 @@ html{
 overflow-x: visible;}
 
 @media only screen and (max-width: 600px) {
-	.parallax {
-  background-image: url("mepic.jpeg");
-  height: 770px;
-  width:700px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 
 }
